@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyPanda2021", "CrazyPanda2021\CrazyPanda2021.csproj", "{88175392-1170-45A5-AE45-AD70E316347F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyPanda2021UnitTestProject", "CrazyPanda2021UnitTestProject\CrazyPanda2021UnitTestProject.csproj", "{B272F71A-6C82-43D3-B200-382650469E85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88175392-1170-45A5-AE45-AD70E316347F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88175392-1170-45A5-AE45-AD70E316347F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88175392-1170-45A5-AE45-AD70E316347F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88175392-1170-45A5-AE45-AD70E316347F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B272F71A-6C82-43D3-B200-382650469E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B272F71A-6C82-43D3-B200-382650469E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B272F71A-6C82-43D3-B200-382650469E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B272F71A-6C82-43D3-B200-382650469E85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39AF9833-0EFD-4082-8BE9-903081BCF98A}
+	EndGlobalSection
+EndGlobal
