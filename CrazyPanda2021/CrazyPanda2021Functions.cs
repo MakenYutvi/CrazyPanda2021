@@ -12,6 +12,37 @@ namespace CrazyPanda2021
             ulong currentSum = 0;
             bool IsMatch = false;
             for (int i = 0; i < countOfElement; i++)
+            {               
+                currentSum += list[i];
+                while(currentSum > sum)
+                {                    
+                    currentSum -= list[start];
+                    start++;
+                }
+                if (currentSum == sum)
+                {
+                    end = i + 1 ;
+                    IsMatch = true;
+                    break;
+                }
+            }
+
+            if (!IsMatch)
+            {
+                start = 0;
+                end = 0;
+            }
+
+
+        }
+        public void FindElementsForSum_NotUsed(List<uint> list, ulong sum, out int start, out int end)
+        {
+            int countOfElement = list.Count;
+            start = 0;
+            end = 0;
+            ulong currentSum = 0;
+            bool IsMatch = false;
+            for (int i = 0; i < countOfElement; i++)
             {
                 currentSum = 0;
                 for (int j = i; j < countOfElement; j++)

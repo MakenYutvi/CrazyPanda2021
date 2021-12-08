@@ -59,12 +59,15 @@ namespace CrazyPanda2021
                 x = (uint)rnd.Next(1, 100);
                 list.Add(x);
             }
-            ulong sum = 868684;
+            ulong sum = 33333333475;
             int start;
             int end;
+            DateTime _start_DateTime = DateTime.Now;
             func.FindElementsForSum(list, sum,  out start,  out end);
-            Assert.IsNotNull(start);
-            Assert.IsNotNull(end);
+            var deltatime = DateTime.Now - _start_DateTime;
+            var DELTA_TIME = new TimeSpan(0, 0, 1);
+            Assert.IsTrue(deltatime < DELTA_TIME);
+            
 
         }
     }
